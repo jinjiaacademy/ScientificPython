@@ -31,4 +31,4 @@ p = np.zeros(100)
 for i in range(100):
     p[i] = poissonCounter(10)
 
-print(p)
+print(p) 
