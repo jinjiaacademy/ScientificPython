@@ -37,12 +37,41 @@ import numpy as np
 # ax[1, 1].plot(np.random.randn(4, 4))
 # =============================================================================
 
-fig, ax = plt.subplots(3, 3)
+# =============================================================================
+# fig, ax = plt.subplots(3, 3)
+# 
+# rows = [0, 1, 2]
+# cols = [0, 1, 2]
+# 
+# mtx = [(row, col) for row in rows for col in cols]
+# 
+# for row, col in mtx:
+#     ax[row, col].plot(np.random.randn(4,4))
+# =============================================================================
 
-rows = [0, 1, 2]
-cols = [0, 1, 2]
+# =============================================================================
+# x = np.linspace(-3, 3, 101)
+# 
+# plt.plot(x, x, label='y=x')
+# plt.plot(x, x**2, label='y=x**2')
+# plt.plot(x, x**3, label='y=x**3')
+# 
+# plt.xlabel('x')
+# plt.ylabel('y=f(x)')
+# plt.xlim([x[0], x[-1]])
+# plt.ylim([-10, 10])
+# plt.title('A really awesome plot!')
+# 
+# plt.gca().set_aspect(1/plt.gca().get_data_ratio())
+# plt.legend()
+# 
+# =============================================================================
 
-mtx = [(row, col) for row in rows for col in cols]
-
-for row, col in mtx:
-    ax[row, col].plot(np.random.randn(4,4))
+# =============================================================================
+# x = np.linspace(0, 10, 100)
+# 
+# for i in np.linspace(0, 1, 50):
+#     plt.plot(x, x**i, color=[i/2, 0, i])
+#     
+# plt.show()
+# =============================================================================
